@@ -7,7 +7,7 @@ class PythonOrgSearch(unittest.TestCase):
 
     def setUp(self):
         chrome_options = Options()
-        chrome_options.add_argument("--no-sandbox")
+        #chrome_options.add_argument("--no-sandbox")
         #chrome_options.add_argument("--headless")
         self.driver = webdriver.Chrome(options=chrome_options)
 
