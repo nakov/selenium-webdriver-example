@@ -26,5 +26,5 @@ jobs:
           poetry-version: ${{ matrix.poetry-version }}
       - name: Install app dependencies
         run: poetry install
-      - name: Run main.py
+      - name: Run main.py (Selenium tests)
         run: poetry run python main.py
